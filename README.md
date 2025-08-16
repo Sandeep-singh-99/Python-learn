@@ -8,6 +8,9 @@
   - [Slicing Strings](./String/read.md#slicing-strings)
   - [Modify Strings](./String/read.md#modify-strings)
   - [String Concatenation](./String/read.md#string-concatenation)
+  - [Format Strings](./String/read.md#format-strings)
+  - [Escape Characters](./String/read.md#escape-characters)
+  - [Strings Methods](./String/read.md#strings-methods)
 
 ## Python Built-in Data Types
 
