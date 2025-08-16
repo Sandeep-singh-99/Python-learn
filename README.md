@@ -1,6 +1,6 @@
 # Python
 
-## Python Built-in Data Types
+### Python Built-in Data Types
 
 In Programming, data type is an important concept.
 
@@ -18,4 +18,13 @@ Python has the following data types built-in by default, in these categories:
  - Binary Types: `bytes`, `bytearray`, `memoryview`<br><br>
  - None Type: `NoneType`<br><br>
 
+ ### Random Number
+
+Python does not have a `random()` function to make a random number, but Python has a built-in module called `random` that can be used to make random numbers:
+
+```python
+import random
+
+print(random.randrange(1,10))
+```
 
