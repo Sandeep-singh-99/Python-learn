@@ -11,6 +11,7 @@
   - [Format Strings](./String/read.md#format-strings)
   - [Escape Characters](./String/read.md#escape-characters)
   - [Strings Methods](./String/read.md#strings-methods)
+- [Python Lists](./Python%20Lists/read.md#Lists)
 
 ## Python Built-in Data Types
 
