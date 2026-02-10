@@ -15,7 +15,9 @@
 # print(list3)
 # print(list4)
 
-# Accessing list items
+"""
+Accessing list items
+"""
 
 # thisList = ["apple", "banana", "cherry"]
 # print(thisList[-1])
@@ -30,13 +32,17 @@
 # else:
 #     print("No, 'apple' is not in the fruits list")
 
-# Change Item Value
+"""
+Change Item Value
+"""
 
 # thisList = ["apple", "banana", "cherry"]
 # thisList[1] = "blackcurrant"
 # print(thisList)
 
-# Add List Items
+"""
+Add List Items
+"""
 
 # thislist = ["apple", "banana", "cherry"]
 # thislist.append("orange")
@@ -58,5 +64,36 @@ The extend() method does not have to append lists, you can add any iterable obje
 # print(thislist)
 
 
-# Remove List Items
+"""
+Remove List Items
+"""
 
+# thislist = ["apple", "banana", "cherry"]
+# thislist.remove("banana")
+# print(thislist)
+
+# thislist.pop(1)
+# print(thislist)
+
+""" If you do not specify the index, the pop() method removes the last items. """
+
+# tropical = ["mango", "pineapple", "papaya"]
+
+# del tropical
+# print(tropical)
+
+# thislist.clear()
+# print(thislist)
+
+"""
+Loop through a list
+"""
+
+thislist = ["apple", "banana", "cherry"]
+for x in thislist:
+    print("Items: ",x)
+
+print("\n")
+
+for i in range(len(thislist)):
+    print(thislist[i])
