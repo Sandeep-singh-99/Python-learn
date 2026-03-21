@@ -97,3 +97,18 @@ print("\n")
 
 for i in range(len(thislist)):
     print(thislist[i])
+
+"""
+Using a While Loop
+"""
+
+i = 0
+while i < len(thislist):
+    print("While loop: ",thislist[i])
+    i = i + 1
+
+"""
+Looping using list comprehension
+"""
+
+[print(x) for x in thislist]
